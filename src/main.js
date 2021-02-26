@@ -11,7 +11,7 @@ import JsonExcel from 'vue-json-excel'
 
 import '@/styles/index.scss' // global cssz
 
-Vue.prototype.$echarts = echarts;
+Vue.prototype.$echarts = echarts ;
 Vue.use(VueRouter)
 Vue.use(ElementUI);
 //解析 将excel下载到本地
